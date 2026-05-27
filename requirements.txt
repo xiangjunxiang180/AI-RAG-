@@ -1,6 +1,8 @@
-gradio
+fastapi
+uvicorn
 langchain
 langchain-community
+langchain-huggingface
 sentence-transformers
 faiss-cpu
 dashscope
