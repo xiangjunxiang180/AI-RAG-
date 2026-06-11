@@ -33,7 +33,7 @@ def init_db():
 
 init_db()
 
-# ===================== RAG模型初始化（和你原来的完全一样）=====================
+# ===================== RAG模型初始化 =====================
 embedding_model = HuggingFaceEmbeddings(
     model_name="BAAI/bge-small-zh-v1.5",
     model_kwargs={"device":"cpu"},
